@@ -8,6 +8,7 @@ public class EmployeeWages {
         int Part_time = 4;
         int Wages_pr_hr = 20;
         int Present = 1;
+        int Days_in_month = 20;
         double value = Math.floor(Math.random() * 10) % 2;
 
         if (value == Present) {
@@ -20,10 +21,12 @@ public class EmployeeWages {
                 case 1:
                     System.out.println("Employee is Present Full Time");
                     System.out.println("Daily wages of an Employee is : " + Full_time * Wages_pr_hr);
+                    System.out.println("Monthly wages of an Employee is : " + (Full_time * Wages_pr_hr)* Days_in_month);
                     break;
                 case 2:
                     System.out.println("Employee is Present Part Time");
-                    System.out.println("Daily wages of an Employee is : " + Part_time * Wages_pr_hr);
+                    System.out.println("Daily wages of an Employee for Part Time is : " + Part_time * Wages_pr_hr);
+                    System.out.println("Monthly wages of an Employee for Part Time is : " + (Part_time * Wages_pr_hr)* Days_in_month);
                     break;
                 default:
                     System.out.println("You Have Entered Wrong Number ");
