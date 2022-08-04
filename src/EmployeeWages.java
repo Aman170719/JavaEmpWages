@@ -16,7 +16,6 @@ public class EmployeeWages {
         for (int i = 1; i <= Working_hrs; i++) {
             int wages2 = (Working_hrs * Full_time);
             System.out.println("day : " + i + " Salary is : " + wages2);
-
         }
     }
 }
