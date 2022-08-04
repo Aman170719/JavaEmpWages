@@ -12,6 +12,5 @@ public class EmployeeWages {
             System.out.println("Daily wages of an Employee is : " +Full_time * Wages_pr_hr);
         } else
             System.out.println("Employee is Absent");
-
     }
         }
